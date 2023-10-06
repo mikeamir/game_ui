@@ -11,6 +11,7 @@ class GameCard extends StatelessWidget {
   final double borderRadius;
   final List<BoxShadow> shadows;
   final Widget child;
+  final EdgeInsets? padding;
 
   const GameCard({
     required this.width,
@@ -22,6 +23,7 @@ class GameCard extends StatelessWidget {
     this.alignment = Alignment.center,
     this.borderRadius = 16,
     this.borderThickness = 3,
+    this.padding,
     this.shadows = const [
       BoxShadow(
         color: Color(0x26000000),
@@ -43,6 +45,7 @@ class GameCard extends StatelessWidget {
         height: height,
         width: width,
         alignment: alignment,
+        padding: padding,
         decoration: BoxDecoration(
           color: color,
           borderRadius: BorderRadius.circular(borderRadius),
