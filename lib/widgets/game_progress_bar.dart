@@ -22,6 +22,7 @@ class GameProgressBar extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final double startBorderRadius = borderRadius * ((progress / width) * 0.9);
     return Container(
       height: height,
       width: width,
@@ -43,7 +44,12 @@ class GameProgressBar extends StatelessWidget {
               height: double.maxFinite,
               decoration: BoxDecoration(
                 color: colorSet.progressColor,
-                borderRadius: BorderRadius.circular(borderRadius),
+                borderRadius: BorderRadius.only(
+                  bottomLeft: Radius.circular(borderRadius),
+                  topLeft: Radius.circular(borderRadius),
+                  bottomRight: Radius.circular(startBorderRadius),
+                  topRight: Radius.circular(startBorderRadius),
+                ),
               ),
             ),
           ),
