@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:game_ui/core/constants/game_colors.dart';
 
 class GameProgressBarColorSet {
   final Color backgroundColor;
@@ -14,35 +15,35 @@ class GameProgressBarColorSet {
   });
 
   static const GameProgressBarColorSet yellow = GameProgressBarColorSet(
-    progressColor: Color(0xffFFDB0A),
+    progressColor: GameColors.yellowAccent,
     backgroundColor: Color(0xff4E19A5),
     shadowColor: Color(0xff000000),
     borderColor: Color(0xffffffff),
   );
 
   static const GameProgressBarColorSet pink = GameProgressBarColorSet(
-    progressColor: Color(0xffFC8AFF),
+    progressColor: GameColors.pinkAccent,
     backgroundColor: Color(0xff4E19A5),
     shadowColor: Color(0xff000000),
     borderColor: Color(0xffffffff),
   );
 
   static const GameProgressBarColorSet green = GameProgressBarColorSet(
-    progressColor: Color(0xff67EB00),
+    progressColor: GameColors.greenAccent,
     backgroundColor: Color(0xff4E19A5),
     shadowColor: Color(0xff000000),
     borderColor: Color(0xffffffff),
   );
 
   static const GameProgressBarColorSet cyan = GameProgressBarColorSet(
-    progressColor: Color(0xff4CDAFE),
+    progressColor: GameColors.cyanAccent,
     backgroundColor: Color(0xff4E19A5),
     shadowColor: Color(0xff000000),
     borderColor: Color(0xffffffff),
   );
 
   static const GameProgressBarColorSet purple = GameProgressBarColorSet(
-    progressColor: Color(0xffC286FF),
+    progressColor: GameColors.purpleAccent,
     backgroundColor: Color(0xff4E19A5),
     shadowColor: Color(0xff000000),
     borderColor: Color(0xffffffff),

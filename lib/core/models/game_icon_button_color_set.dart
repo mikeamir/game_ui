@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:game_ui/core/constants/game_colors.dart';
 
 class GameIconButtonColorSet {
   final Color background;
@@ -12,38 +13,38 @@ class GameIconButtonColorSet {
   });
 
   static const GameIconButtonColorSet green = GameIconButtonColorSet(
-    background: Color(0xff92F200),
-    shadow: Color(0xff3ABD01),
+    background: GameColors.greenAccent,
+    shadow: GameColors.greenShadow,
     border: Colors.white,
   );
 
   static const GameIconButtonColorSet red = GameIconButtonColorSet(
-    background: Color(0xffFF4672),
-    shadow: Color(0xffFF265A),
+    background: GameColors.red,
+    shadow: GameColors.redShadow,
     border: Colors.white,
   );
 
   static const GameIconButtonColorSet purple = GameIconButtonColorSet(
-    background: Color(0xffB169FA),
-    shadow: Color(0xff782EFB),
+    background: GameColors.purpleAccent,
+    shadow: GameColors.purpleShadow,
     border: Colors.white,
   );
 
   static const GameIconButtonColorSet pink = GameIconButtonColorSet(
-    background: Color(0xffFF60D2),
-    shadow: Color(0xffFF29C3),
+    background: GameColors.pinkAccent,
+    shadow: GameColors.pinkShadow,
     border: Colors.white,
   );
 
   static const GameIconButtonColorSet yellow = GameIconButtonColorSet(
-    background: Color(0xffFFF635),
-    shadow: Color(0xffFFCC18),
+    background: GameColors.yellowAccent,
+    shadow: GameColors.yellowShadow,
     border: Colors.white,
   );
 
   static const GameIconButtonColorSet cyan = GameIconButtonColorSet(
-    background: Color(0xff4CDAFE),
-    shadow: Color(0xff01B4ED),
+    background: GameColors.cyanAccent,
+    shadow: GameColors.cyanShadow,
     border: Colors.white,
   );
 
