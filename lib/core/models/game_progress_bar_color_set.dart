@@ -47,4 +47,18 @@ class GameProgressBarColorSet {
     shadowColor: Color(0xff000000),
     borderColor: Color(0xffffffff),
   );
+
+  GameProgressBarColorSet copyWith({
+    Color? backgroundColor,
+    Color? progressColor,
+    Color? shadowColor,
+    Color? borderColor,
+  }) {
+    return GameProgressBarColorSet(
+      backgroundColor: backgroundColor ?? this.backgroundColor,
+      progressColor: progressColor ?? this.progressColor,
+      shadowColor: shadowColor ?? this.shadowColor,
+      borderColor: borderColor ?? this.borderColor,
+    );
+  }
 }

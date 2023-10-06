@@ -47,4 +47,18 @@ class GameButtonColorSet {
     shadow: Color(0xffA75CF4),
     border: Colors.white,
   );
+
+  GameButtonColorSet copyWith({
+    Color? primary,
+    Color? secondary,
+    Color? shadow,
+    Color? border,
+  }) {
+    return GameButtonColorSet(
+      primary: primary ?? this.primary,
+      secondary: secondary ?? this.secondary,
+      shadow: shadow ?? this.shadow,
+      border: border ?? this.border,
+    );
+  }
 }
