@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
+import '../core/enums/border_type.dart';
 import '../core/models/game_button_color_set.dart';
-
-enum BorderType { rounded, circular }
 
 class MiniGameButton extends StatelessWidget {
   final String text;
