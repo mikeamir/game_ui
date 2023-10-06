@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:game_ui/core/constants/game_colors.dart';
 
 class GameButtonColorSet {
   final Color primary;
@@ -14,37 +15,37 @@ class GameButtonColorSet {
   });
 
   static const GameButtonColorSet green = GameButtonColorSet(
-    primary: Color(0x8067EB00),
-    secondary: Color(0xff43D309),
-    shadow: Color(0xff4EC307),
+    primary: GameColors.green,
+    secondary: GameColors.greenAccent,
+    shadow: GameColors.greenShadow,
     border: Colors.white,
   );
 
   static const GameButtonColorSet yellow = GameButtonColorSet(
-    primary: Color(0x80FFEE88),
-    secondary: Color(0xffFFDB0A),
-    shadow: Color(0xffFFB213),
+    primary: GameColors.yellow,
+    secondary: GameColors.yellowAccent,
+    shadow: GameColors.yellowShadow,
     border: Colors.white,
   );
 
   static const GameButtonColorSet pink = GameButtonColorSet(
-    primary: Color(0x80FDC0FF),
-    secondary: Color(0xffFC8AFF),
-    shadow: Color(0xffDA57F0),
+    primary: GameColors.pink,
+    secondary: GameColors.pinkAccent,
+    shadow: GameColors.pinkShadow,
     border: Colors.white,
   );
 
   static const GameButtonColorSet cyan = GameButtonColorSet(
-    primary: Color(0x8094E7FC),
-    secondary: Color(0xff4CDAFE),
-    shadow: Color(0xff08B9FF),
+    primary: GameColors.cyan,
+    secondary: GameColors.cyanAccent,
+    shadow: GameColors.cyanShadow,
     border: Colors.white,
   );
 
   static const GameButtonColorSet purple = GameButtonColorSet(
-    primary: Color(0x80D6AFFE),
-    secondary: Color(0xffC286FF),
-    shadow: Color(0xffA75CF4),
+    primary: GameColors.purple,
+    secondary: GameColors.purpleAccent,
+    shadow: GameColors.purpleShadow,
     border: Colors.white,
   );
 
